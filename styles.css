@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  width: 330px; /* Réduisez la largeur de l'élément #app */
+  display: flex;
+  justify-content: space-between; /* Ajout pour contrôler l'espace entre les colonnes */
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+#contextInput,
+#modelSelect,
+#apiKeyInput {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#messages {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 80vh;
+  width: 70vw;
+  overflow-y: scroll;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+p {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* ... Autres styles ... */
+
+.assistantMessage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyButton {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+

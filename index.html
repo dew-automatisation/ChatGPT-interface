@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHATGPT</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+   <div id="sidebar">
+  <h3>Contexte</h3>
+  <textarea id="contextInput" rows="15" cols="30">Tu es un super assistant.
+</textarea>
+  <h4>Modèle</h4>
+  <select id="modelSelect">
+    <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+    <option value="gpt-4">gpt-4</option>
+  </select>
+  <h4>Clé API</h4>
+ <input type="text" id="apiKeyInput" placeholder="Entrez votre clé API" value="API KEY">
+</div>
+
+    </div>
+    <div id="chat">
+      <div id="messages"></div>
+      <input type="text" id="userInput" placeholder="Tapez votre message ici...">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
