@@ -6,6 +6,8 @@ Une interface simple pour interagir avec l'API d'openAI : GPT3.5 et GPT4. Avec l
 
 Lance le index.html et enjoy.
 
+Vous pouvez le tester directement ici : https://devenirentrepreneurweb.fr/tools/chatgpt/
+
 ![Screenshot](screenshot.jpg)
 
 Mes liens :
